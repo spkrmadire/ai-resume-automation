@@ -1,0 +1,33 @@
+Siva Prasanna Kumar Reddy Madire
+Location: Seattle, WA | E-Mail: spkrmadire@gmail.com | Phone: +1 (316) 376 6839 | Linkedin
+
+SUMMARY	
+BIE II with around 4 years of experience building and maintaining reliable data pipelines and cloud-based data platforms, with a strong interest in Data Engineering. Hands-on experience with AWS services including S3, Glue (PySpark), Lambda, and SQL, along with Spark to design and model data for analytics and reporting. Proven ability to optimize queries, improve data quality, and automate manual processes into scalable, production-ready solutions. Comfortable partnering with business teams and leadership to understand requirements and deliver accurate, dependable data that supports informed decision-making.
+
+SKILLS & CERTIFICATIONS	
+Cloud Platforms: AWS (Redshift, S3, RDS, EC2, Lambda), Azure (Data Factory, Data Lake, Data Bricks) Big Data & Distributed Processing: Hadoop (HDFS, MapReduce, Kafka), Spark (Spark SQL, PySpark) Programming Languages: SQL, Python, R, SAS
+Libraries: NumPy, Pandas, SciPy, Matplotlib, Seaborn, Scikit-learn, TensorFlow
+Databases: MySQL, PostgreSQL, SQL Server, Oracle, MongoDB
+Visualization Tools: Quick Suite, Tableau, Advance Excel ETL Tools: SSIS, Informatica, DataNet, AWS Glue Methodologies: SDLC, Agile, Waterfall
+Analytical Skills: Data Cleaning, Data Modelling, Problem-Solving, Data Mining, Data Management, Data Manipulation, Data Warehousing
+Automation: Data pipeline automation, workflow orchestration, event-based processing, automated monitoring and reportingss
+EDUCATION	
+Master's in Computer Science | Wichita State University, Wichita, Kansas		Dec 2023 Bachelor's of Technology in Electronics and Communication Engineering | Vignan’s University, AP, India	May 2020
+EXPERIENCE	
+Amazon, Seattle, WA | Business Intelligence Engineer II	Apr 2025 - Present
+•	Independently designed and delivered end-to-end data products for North America, building S3-based data models, AWS Glue (Spark/PySpark) transformation pipelines, and QuickSight dashboards, while ensuring compliance with country-specific legal, privacy, and operational requirements for sensitive Compensation data.
+•	Developed analytics-ready datasets in Snowflake/Redshift-style cloud warehouse environments, optimizing SQL transformations, CTEs, and window functions for performance and scalability.
+•	Partnered with Compensation Business Lines, Operations, and Executive Leadership to define and implement KPIs and self- service QuickSight dashboards (SPICE, calculated fields, parameters, RLS), supported audit and regulatory readiness, led CI/CD transition planning, and mentored junior engineers on data quality, controls, and documentation best practices.
+•	Replaced a highly manual Monthly Business Review (MBR) process that previously required ~24 hours with a fully automated solution using Amazon S3 and AWS Lambda, leveraging internal AI tools (MCP servers and QuickSight AI) to generate refreshed insights in under 5 minutes and automatically distribute reports via email to stakeholders and executive leadership, significantly improving timeliness, accuracy, and decision-making.
+•	Migrated production analytics pipelines from Datanet ETL to Maestro (CI/CD), designing and operationalizing Airflow DAGs across Datanet and AWS Glue jobs that supported Compensation data products for L1–L3 employees, strengthening deployment stability, pipeline governance, and scalability.
+•	Built reusable dimensions, metrics, and semantic-layer logic within DBT to enable consistent self-service reporting across BI dashboards.
+•	Implemented DBT data quality tests, documentation, and lineage tracking, improving trust and governance of certified analytics datasets.
+BCBS, Columbus, Ohio | Data Analyst	Feb 2024 - Mar 2025
+•	Designed and maintained end-to-end ETL pipelines across relational databases, AWS services (S3, Lambda), and data warehouses, ensuring reliable and timely data availability.
+•	Built predictive trend analyses and operational cost insights using SQL and cloud-based ETL pipelines to support financial and workforce planning decisions.
+•	partnered with cross-functional business teams to define reporting requirements, validate KPIs, and deliver analytics solutions supporting operational and financial decision-making.
+KPMG, Hyderabad, India | Data Analyst	Jan 2020 - Nov 2021
+•	Built and supported ETL workflows using SSIS and Azure Data Factory, ingesting and transforming enterprise data into PostgreSQL and MySQL to support analytics and reporting use cases.
+•	Designed normalized data models and implemented performance optimizations (indexing, partitioning) across cloud and on- prem environments, improving data integrity and query efficiency.
+•	Partnered with senior stakeholders, compliance, and governance teams to ensure secure data access, regulatory alignment, and reliable analytics using Azure Data Lake and Databricks.
+
