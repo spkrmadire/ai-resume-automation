@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      body { font-family: Arial, sans-serif; width: 320px; padding: 12px; }
+      input, button, textarea { width: 100%; margin-top: 8px; padding: 8px; box-sizing: border-box; }
+      button { cursor: pointer; }
+      .row { display:flex; gap:8px; }
+      .row input { width: 50%; }
+      small { color: #555; display:block; margin-top: 8px; }
+      #status { margin-top: 10px; font-size: 12px; white-space: pre-wrap; }
+    </style>
+  </head>
+  <body>
+    <b>JD → Tailored Resume</b>
+
+    <div class="row">
+      <input id="company" placeholder="Company (optional)" />
+      <input id="role" placeholder="Role (optional)" />
+    </div>
+
+    <button id="captureSelected">Use Selected Text</button>
+    <button id="capturePage">Use Whole Page Text</button>
+    <button id="captureSmart">Capture JD Section (Smart)</button>
+
+
+    <small>
+      Tip: On the job page, highlight the JD section and click "Use Selected Text" for best results.
+    </small>
+
+    <div id="status"></div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

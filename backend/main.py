@@ -5,6 +5,7 @@ from pydantic import BaseModel
 from dotenv import load_dotenv
 from openai import OpenAI
 from services.render_service import render_docx
+from services.parser_service import load_resume_text
 
 
 load_dotenv()
@@ -24,8 +25,8 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 
 class TailorRequest(BaseModel):
-    company: str
-    role: str
+    company: str = "Company"
+    role: str = "Role"
     job_description: str
 
 
@@ -36,19 +37,10 @@ class TailorResponse(BaseModel):
 
 
 
-def load_base_resume_text() -> str:
-    if not os.path.exists(BASE_RESUME_PATH):
-        raise FileNotFoundError(
-            f"Base resume not found at {BASE_RESUME_PATH}. "
-            f"Create it at ./data/base_resume.txt and try again."
-        )
-    with open(BASE_RESUME_PATH, "r", encoding="utf-8") as f:
-        return f.read().strip()
-
 
 @app.post("/tailor", response_model=TailorResponse)
 def tailor(req: TailorRequest):
-    base_resume_text = load_base_resume_text()
+    base_resume_text = load_resume_text(BASE_RESUME_PATH)
 
     system = (
         "You are an expert ATS resume writer.\n"

@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "JD Capture → Resume Tailor",
+  "version": "1.0.0",
+  "description": "Captures job description text from the current tab and sends it to your local resume tailor backend.",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["http://127.0.0.1:8000/*"],
+  "action": {
+    "default_title": "Capture JD",
+    "default_popup": "popup.html"
+  }
+}
