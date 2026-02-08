@@ -1,11 +1,11 @@
 # AI Resume Intelligence Tool  
-**JD → Tailored Resume in <45 Seconds**
+**JD → Tailored Resume in <35 Seconds**
 
 A self-serving AI tool that reads a job description, compares it with a **master resume**, and generates a **clean, relevant, ATS-aligned tailored resume** in seconds.
 
 Built to remove the repetitive manual resume-editing loop during job applications.
 
-> **Impact:** What previously took **15–20 minutes** of manual tailoring now takes **one click** and typically **<45 seconds** to generate a downloadable tailored resume.
+> **Impact:** What previously took **15–20 minutes** of manual tailoring now takes **one click** and typically **<35 seconds** to generate a downloadable tailored resume.
 
 ---
 
@@ -29,7 +29,7 @@ The goal was to build something **practical and usable in a real daily workflow*
 - **Master Resume strategy** (single reusable source of truth)
 - AI-powered **semantic comparison & contextual rewriting**
 - **ATS-aligned formatting and keyword relevance**
-- Fast generation (**usually <45 seconds**)
+- Fast generation (**usually <35 seconds**)
 - Modular pipeline:  
   **Parse → Compare → Rewrite → Export**
 
